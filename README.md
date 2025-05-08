@@ -1,11 +1,12 @@
 # MD-Anderson-Cancer-Institute-Cancer-Diagnosis-using-ANNs
 
-
 🧠 Cancer Diagnosis Using Artificial Neural Networks (ANNs)
 This project demonstrates how Artificial Neural Networks (ANNs) can be used to accurately diagnose cancer using radiological data. The implementation uses TensorFlow/Keras to build and evaluate a deep learning model, simulating a deployment for the MD Anderson Cancer Institute.
 
+
 📁 Dataset
 Name: Breast Cancer Wisconsin (Diagnostic) Dataset
+
 
 Source: Kaggle
 
@@ -15,6 +16,7 @@ Target: diagnosis — M (Malignant) or B (Benign)
 
 
 🛠️ Project Structure
+
 
 MD-Anderson-Cancer-Diagnosis/
 │
@@ -27,6 +29,7 @@ MD-Anderson-Cancer-Diagnosis/
 ├── README.md
 ├── requirements.txt
 └── main.py
+
 
 
 🧠 Model Architecture
@@ -60,6 +63,7 @@ The model performs exceptionally well, particularly in recall, making it ideal f
 ANN architecture was able to generalize without overfitting due to dropout and standardized input.
 
 With further validation, this model can serve as a clinical decision support system (CDSS).
+
 
 📚 References
 Kaggle: Breast Cancer Dataset
